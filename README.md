@@ -10,12 +10,7 @@ Customer Thread (Consumer): Waits for and consumes coffee
 
 The program ensures proper thread communication where the customer waits until the coffee is ready before drinking it.
 
-🏗️ Project Structure
-text
-src/
-└── Track/
-    └── Day13/
-        └── code6.java
+
 💻 Code Overview
 Main Classes
 coffeeShop Class
@@ -43,36 +38,13 @@ Producer-Consumer Pattern: Barista produces, customer consumes
 
 Thread Safety: Proper coordination between concurrent threads
 
-🚀 How to Run
-Compile the Java file:
 
-bash
-javac Track/Day13/code6.java
-Run the program:
-
-bash
-java Track.Day13.code6
-📝 Expected Output
-text
-Customer: waiting for coffee
-Abhinanda: Making Coffee
-Abhinanda: coffee is ready notifying customer 
-Customer: got the coffee! drinking now
-🎯 Learning Objectives
-Understand thread synchronization in Java
-
-Learn proper usage of wait() and notify() methods
 
 Implement producer-consumer pattern
 
 Handle thread coordination and communication
 
-⚙️ Technical Details
-Language: Java
 
-Concurrency: Thread-based
-
-Synchronization: Object-level locking
 
 Pattern: Producer-Consumer
 
